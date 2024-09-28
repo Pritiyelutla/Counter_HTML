@@ -1,6 +1,9 @@
 let dc = document.getElementById("decrement");
 let ic = document.getElementById("increment");
+<<<<<<< Updated upstream
 let cl = document.getElementById("clear");
+=======
+>>>>>>> Stashed changes
 
 let ans = document.getElementById("middle");
 let error = document.getElementById("error");
@@ -11,7 +14,10 @@ dc.addEventListener("click", function(){
     if(res == 0)
     {
         error.innerHTML = '<p style = "color : red;" >Error : Cannot go below 0<p>';
+<<<<<<< Updated upstream
         //clear.innerHTML = '<style = "display: none;">';
+=======
+>>>>>>> Stashed changes
         clear.style.display = "none";
     }
     else{
